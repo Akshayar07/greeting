@@ -10,7 +10,7 @@ class Greeting {
       return const Text("Good Morning");
     } else if (hour >= 12 && hour < 18) {
       return const Text('Good Afternoon');
-    } else if (hour >= 18 && hour < 22) {
+    } else if (hour >= 18 && hour < 20) {
       return const Text('Good Evening');
     } else {
       return const Text('Good Night');
